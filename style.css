@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Sniglet&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.4s;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 4rem;
+  background-color: #171820;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.quiz {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  padding: 4rem;
+  min-width: 100%;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);
+}
+.quiz-header {
+  padding: 2rem 0rem;
+}
+.quiz .choose {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-left: 1.25rem;
+}
+.quiz .choose input {
+  margin-bottom: 2rem;
+}
+.quiz .choose input[type=radio]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #2f3037;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+.quiz .choose input[type=radio]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: chartreuse;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+.quiz .choose label {
+  border: 1px solid chartreuse;
+  border-radius: 3rem;
+  padding: 0.5rem 3rem;
+  width: 100%;
+  margin-left: -40px;
+}
+.quiz .choose label:hover {
+  background-color: chartreuse;
+  color: #171820;
+}
+.quiz .choose-rigth {
+  width: 50%;
+  text-align: left;
+}
+.quiz .choose-left {
+  width: 50%;
+  text-align: left;
+}
+.quiz .submit {
+  border: none;
+  outline: none;
+  background-color: chartreuse;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  margin-top: 1rem;
+  float: right;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
